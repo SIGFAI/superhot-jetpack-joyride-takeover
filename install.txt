@@ -1,0 +1,1 @@
+Install BepInEx 5 (64-bit) into your SUPERHOT folder, then copy the BepInEx folder from this mod's release folder over it and start the game. Hold SPACE in the air to fly and shoot; the mod loads the Warehouse endless level.

@@ -1,0 +1,7 @@
+Clip moments (the demo plays them in this order):
+[x] 1. Jetpack enemies hover on twin flames over floating coins (heart and line), HUD shows distance and coins; the player lifts off on the jetpack with the orange flame glow and yellow tracers.
+[x] 2. The jet guns shred enemies: each one tears its jetpack off, the pack spins away and blows up, and a shower of coins flies to the coin counter (the counter climbs).
+[x] 3. A MISSILE warning sign flashes, the missile flies in, SUPERHOT time freezes with the missile hanging next to a jetpack enemy, then time resumes and the blast kills the group.
+[x] 4. A spinning zapper sweeps its electric beam through an enemy and fries it.
+
+Notes: moment 3's freeze is brief; the missile, its warning sign and the blast are clear. Everything else read clearly in the recorded demo.
