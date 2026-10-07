@@ -1,0 +1,122 @@
+{
+  "id": "sigf/superhot-jetpack-joyride-takeover",
+  "version": "1.0.0",
+  "name": "Jetpack Joyride Takeover",
+  "tagline": "Bring Jetpack Joyride into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "jetpackjoyride",
+      "role": "guest",
+      "label": "Jetpack Joyride",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "superhot-jetpack-joyride-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/boom.wav",
+              "sha256": "b6e43896c0b4e7042586d70eb47a2dc10064f8a6b7588cb2d90ddb234f6d7f22"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin.png",
+              "sha256": "444baa64060a559b9fd141ab433831f52553ab361e9f6698b2a54b390641cbf0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/coin.wav",
+              "sha256": "74adf1d4fbd2f4398111d508b5396ca8adbc4a884522c39a3861c78700642021"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hazard.png",
+              "sha256": "a73f97f2c8689351b23626562a8d3bb0a187aee7b441f4cafaf5764759960b80"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/jet.wav",
+              "sha256": "64ba0f01582b7f7c7db5b100ef6e0832cde557826a89e00eb739dffc6faf3b8a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/jetmetal.png",
+              "sha256": "0b5e90b86e812d4ddeb6632e186c73409a4dd4bffaee5257504dcd0077c7cc68"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/warn.png",
+              "sha256": "794fe781e5b0baba1ecffd92bea053f0a2e1a1e7ab71bf66a7d3c9d7bd4fe5e2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/warn.wav",
+              "sha256": "765d09a522c000e1ed7a2fdcc58281ae9a567b639941bb85c55a6c7d90de4a6a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/zap.wav",
+              "sha256": "f5256ce47ba94d517d1ceee1f9ce4222cd4cbc440d870ba7dd2241b4db5c891e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "55f10395411988d7f3035b41a13d73a73d020e427d8e7f8480afb2f22d86be97"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "db08f8f4d21af2b904f0c9d4779aa9928a6dc0c8434df4919eb91b0e55660ac5"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/superhot-jetpack-joyride-takeover/releases/download/v1.0.0/superhot-jetpack-joyride-takeover.zip",
+          "sha256": "bfe4ec62e13a2fc6fc4e961c00d57b5d5c08ca94e661853c544b03b279943a07",
+          "size": 1869772
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "superhot-jetpack-joyride-takeover.zip",
+      "url": "https://github.com/SIGFAI/superhot-jetpack-joyride-takeover/releases/download/v1.0.0/superhot-jetpack-joyride-takeover.zip",
+      "sha256": "bfe4ec62e13a2fc6fc4e961c00d57b5d5c08ca94e661853c544b03b279943a07",
+      "size": 1869772
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/superhot-jetpack-joyride-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-bafa3a53.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T03:06:51.877Z",
+  "notes": [
+    "Install BepInEx 5 (64-bit) into your SUPERHOT folder, then copy the BepInEx folder from this mod's release folder over it and start the game. Hold SPACE in the air to fly and shoot; the mod loads the Warehouse endless level."
+  ]
+}
